@@ -4,39 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="logo"></div>
-        <div class="header-menu"><a href="">О нас</a></div>
-        <div class="header-menu"><a href="pexxedrg/catalog">Каталог</a></div>
-        <div class="header-menu"><a href="">Где нас найти?</a></div>
-
-        <div class="header-login"><a href="">Регистрация</a></div>
-        <div class="header-login"><a href="">Вход</a></div>
+        <ul class="ul-menu">
+            <li class="logo"><img src="" alt=""/></li>
+            <li class="header-menu"><a href="">О нас</a></li>
+            <li class="header-menu"><a href="">Каталог</a></li>
+            <li class="header-menu"><a href="">Где нас найти?</a></li>
+            <li class="header-login"><a href="">Регистрация</a></li>
+            <li class="header-login"><a href="">Вход</a></li>
+        </ul>
     </header>
-
-    <div class="category"><h2>Каталог товаров</h2></div>
-    <div class="catalog">
-
-        <div class="menu-streamlining">
-            <div class="menu-streamlining-proizv">
-                Год производства Наименование Цена
+    <div class="main-category">
+        <div class="category"><h2>Каталог товаров</h2></div>
+        <div class="catalog">
+            <div class="menu-streamlining">
+                <div class="menu-streamlining-proizv">
+                    <ul>
+                        <li>Год производства</li>
+                        <li>Наименование</li>
+                        <li>Цена</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    Marvel Dc Other
+                </div>
             </div>
-            <div class="menu-category">Marvel Dc Other</div>
+
+            <div class="product">
+                <div class="image"><img src="" alt=""/></div>
+                <div class="name"><p>Марвел</p></div>
+                <div class="price"><p>1000р</p></div>
+                <div class="go"><a href="">Перейти на товар</a></div>
+            </div>
         </div>
 
-        <div class="product">
-            <div class="image"></div>
-            <div class="name"><p>Марвел</p></div>
-            <div class="price"><p>1000р</p></div>
-            <div class="go"><a href="">Перейти на товар</a></div>
-        </div>
-    </div>
-
-    <div class="basament">
-        <p>подвал</p>
+        <div class="basament">
+            <p>подвал</p>
+        </div>  
     </div>
 </body>
 </html>
