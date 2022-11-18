@@ -30,7 +30,11 @@
                     </ul>
                 </div>
                 <div class="menu-category">
-                    Marvel Dc Other
+                    <ul>
+                        <li>Marvel</li>
+                        <li>Dc</li>
+                        <li>Other</li>
+                    </ul>
                 </div>
             </div>
 

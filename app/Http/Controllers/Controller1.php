@@ -5,6 +5,6 @@ class Controller1 extends Controller
 { 
 	public function page()
 	{
-		return view('first');
+		return view('catalog');
 	}
 }
