@@ -11,44 +11,61 @@
     <header>
         <ul class="ul-menu">
             <li class="logo"><img src="" alt=""/></li>
-            <li class="header-menu"><a href="">О нас</a></li>
-            <li class="header-menu"><a href="">Каталог</a></li>
-            <li class="header-menu"><a href="">Где нас найти?</a></li>
-            <li class="header-login"><a href="">Регистрация</a></li>
-            <li class="header-login"><a href="">Вход</a></li>
+            <li class=""><a href="">О нас</a></li>
+            <li class=""><a href="">Каталог</a></li>
+            <li class=""><a href="">Где нас найти?</a></li>
+            <li class=""><a href="">Регистрация</a></li>
+            <li class=""><a href="">Вход</a></li>
         </ul>
     </header>
     <div class="main-category">
         <div class="category"><h2>Каталог товаров</h2></div>
-        <div class="catalog">
-            <div class="menu-streamlining">
-                <div class="menu-streamlining-proizv">
-                    <ul>
-                        <li>Год производства</li>
-                        <li>Наименование</li>
-                        <li>Цена</li>
-                    </ul>
-                </div>
-                <div class="menu-category">
-                    <ul>
-                        <li>Marvel</li>
-                        <li>Dc</li>
-                        <li>Other</li>
-                    </ul>
+            <div class="catalog">
+                <div class="menu-streamlining">
+                    <div class="menu-streamlining-proizv">
+                        <ul>
+                            <li>Год производства</li>
+                            <li>Наименование</li>
+                            <li>Цена</li>
+                        </ul>
+                    </div>
+                    <div class="menu-category">
+                        <ul>
+                            <li>Marvel</li>
+                            <li>Dc</li>
+                            <li>Other</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
+        <div class="product-category">
             <div class="product">
                 <div class="image"><img src="" alt=""/></div>
                 <div class="name"><p>Марвел</p></div>
+                <div class="publisher">Марвел</div>
+                <div class="price"><p>1000р</p></div>
+                <div class="go"><a href="">Перейти на товар</a></div>
+            </div>
+            <div class="product">
+                <div class="image"><img src="" alt=""/></div>
+                <div class="name"><p>Марвел</p></div>
+                <div class="publisher">Марвел</div>
+                <div class="price"><p>1000р</p></div>
+                <div class="go"><a href="">Перейти на товар</a></div>
+            </div>
+            <div class="product">
+                <div class="image"><img src="" alt=""/></div>
+                <div class="name"><p>Марвел</p></div>
+                <div class="publisher">Марвел</div>
                 <div class="price"><p>1000р</p></div>
                 <div class="go"><a href="">Перейти на товар</a></div>
             </div>
         </div>
-
-        <div class="basament">
-            <p>подвал</p>
-        </div>  
     </div>
+
+    <div class="basament">
+            <p>подвал</p>
+    </div>  
 </body>
 </html>
