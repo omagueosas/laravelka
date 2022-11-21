@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 8000px;
+}
+
+/*header*/
+
+body > header > .ul-menu > li > a {
+    font-family: "Aegean";
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "Aegean";
+    src: url(public/css/fonts/Aegean-8jJ2.ttf) format(OpenType);
+}
