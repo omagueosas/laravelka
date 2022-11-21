@@ -20,6 +20,10 @@
     </header>
     <div class="main-category">
         <div class="category-name"><h2>Где нас найти</h2></div>
+        <div>+7(902)679-14-39
+            saskakuzaw@gmail.ru 
+            Крупской 3
+        </div>
         
     </div>
 
