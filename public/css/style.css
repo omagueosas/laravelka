@@ -13,6 +13,7 @@ body {
 body > header > .ul-menu > li > a {
     font-family: "Aegean";
     font-size: 20px;
+    color: black;
 }
 
 @font-face {
