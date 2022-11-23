@@ -16,6 +16,21 @@ body > header > .ul-menu > li > a {
     color: black;
 }
 
+body > header > .ul-menu {
+    list-style: none;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body > header > .ul-menu > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @font-face {
     font-family: "Aegean";
     src: url(public/css/fonts/Aegean-8jJ2.ttf) format(OpenType);
