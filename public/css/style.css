@@ -33,7 +33,7 @@ body > header > .ul-menu > li {
 
 body > header > .ul-menu > li > a {
     font-family: "MuktaLight";
-    font-size: 30px;
+    font-size: 16px;
     color: black;
 }
 
@@ -41,8 +41,8 @@ header > .header-info {
     width: auto;
 }
 
-h2 {
-    font-family: "MuktaLight";
+.main-category > .category-name > h2 {
+    font-family: "HussarBoldSupercondensedObliqueThree";
     font-size: 30px;
 }
 
@@ -52,20 +52,20 @@ h2 {
 
 @font-face {
     font-family: "Aegean";
-    src: url(/auyyzea-m1/larapraktika/public/fonts/Aegean-8jJ2.ttf) format(OpenType);
+    src: url(/larapraktika/public/fonts/Aegean-8jJ2.ttf) format(OpenType);
 }
 
 @font-face {
     font-family: "MuktaLight";
-    src: url(/auyyzea-m1/larapraktika/public/fonts/EkMuktaLight-wO19.ttf) format(TrueType);
+    src: url(/larapraktika/public/fonts/EkMuktaLight-wO19.ttf) format(TrueType);
 }
 
 @font-face {
     font-family: "HussarBoldExtendedObliqueThree";
-    src: url(/public/css/fonts/HussarBoldExtendedObliqueThree.otf) format(PostScript);
+    src: url(/larapraktika/public/fonts//HussarBoldExtendedObliqueThree.otf) format(OpenType);
 }
 
 @font-face {
     font-family: "HussarBoldSupercondensedObliqueThree";
-    src: url(/public/css/fonts/HussarBoldSupercondensedObliqueThree.otg) format(PostScript);
+    src: url(/larapraktika/public/fonts/HussarBoldSupercondensedObliqueThree.otf) format(OpenType);
 }

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/larapraktika/public/css/style.css">
+    <link type="Image/x-icon" href="/larapraktika/public/img/favicon.ico" rel="icon">
+    <link type="image/x-icon" href="/larapraktika/public/img/favicon.ico" rel="shortcut icon">
     <title>Funny Comics Land</title>
 </head>
 <body>
@@ -43,7 +45,7 @@
             </div>
         </div>
 
-        <div class="category-name"><h2>Каталог товаров</h2></div>
+        <div class="category-name"><h2>Каталог товаровdfsdfasfdasf</h2></div>
 
         <div class="product-category">
             <div class="product">
