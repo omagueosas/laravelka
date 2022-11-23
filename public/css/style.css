@@ -10,16 +10,16 @@ body {
 
 /*header*/
 
-body > header > .ul-menu > li > a {
-    font-family: "HussarBoldExtendedObliqueThree";
-    font-size: 22px;
-    color: black;
+header {
+    display: flex;
+    align-items: center;
+    margin: auto;   
 }
 
 body > header > .ul-menu {
+    justify-content: space-between;
     list-style: none;
     width: 80%;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -31,6 +31,19 @@ body > header > .ul-menu > li {
     justify-content: center;
 }
 
+body > header > .ul-menu > li > a {
+    font-family: "MuktaLight";
+    font-size: 30px;
+    color: black;
+}
+
+header > .header-info {
+}
+
+.main-category > .product-category > .product {
+
+}
+
 @font-face {
     font-family: "Aegean";
     src: url(public/css/fonts/Aegean-8jJ2.ttf) format(OpenType);
@@ -38,10 +51,15 @@ body > header > .ul-menu > li {
 
 @font-face {
     font-family: "MuktaLight";
-    src: url(public/css/fonts/EkMuktaLight-wO19.ttf) format(OpenType);
+    src: url(public/css/fonts/EkMuktaLight-wO19.ttf) format(TrueType);
 }
 
 @font-face {
     font-family: "HussarBoldExtendedObliqueThree";
     src: url(/public/css/fonts/HussarBoldExtendedObliqueThree.otf) format(PostScript);
+}
+
+@font-face {
+    font-family: "HussarBoldSupercondensedObliqueThree";
+    src: url(/public/css/fonts/HussarBoldSupercondensedObliqueThree.otg) format(PostScript);
 }
