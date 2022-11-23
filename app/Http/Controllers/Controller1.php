@@ -17,4 +17,14 @@ class Controller1 extends Controller
 	{
 		return view('tofindus');
 	}
+
+	public function login()
+	{
+		return view('login');
+	}
+
+	public function registration()
+	{
+		return view('registration');
+	}
 }

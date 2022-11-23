@@ -9,3 +9,5 @@ Route::get('pexxedrg/admin', [App\Http\Controllers\Controller1::class, '']);
 Route::get('pexxedrg/aboutus', [App\Http\Controllers\Controller1::class, 'aboutus']); 
 
 Route::get('pexxedrg/tofindus', [App\Http\Controllers\Controller1::class, 'tofindus']); 
+
+Route::get('pexxedrg/login', [App\Http\Controllers\Controller1::class, 'login']); 

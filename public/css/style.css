@@ -38,20 +38,26 @@ body > header > .ul-menu > li > a {
 }
 
 header > .header-info {
+    width: auto;
+}
+
+h2 {
+    font-family: "MuktaLight";
+    font-size: 30px;
 }
 
 .main-category > .product-category > .product {
-
+    width: auto;
 }
 
 @font-face {
     font-family: "Aegean";
-    src: url(public/css/fonts/Aegean-8jJ2.ttf) format(OpenType);
+    src: url(/auyyzea-m1/larapraktika/public/fonts/Aegean-8jJ2.ttf) format(OpenType);
 }
 
 @font-face {
     font-family: "MuktaLight";
-    src: url(public/css/fonts/EkMuktaLight-wO19.ttf) format(TrueType);
+    src: url(/auyyzea-m1/larapraktika/public/fonts/EkMuktaLight-wO19.ttf) format(TrueType);
 }
 
 @font-face {
