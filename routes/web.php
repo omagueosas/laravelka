@@ -11,3 +11,5 @@ Route::get('pexxedrg/aboutus', [App\Http\Controllers\Controller1::class, 'aboutu
 Route::get('pexxedrg/tofindus', [App\Http\Controllers\Controller1::class, 'tofindus']); 
 
 Route::get('pexxedrg/login', [App\Http\Controllers\Controller1::class, 'login']); 
+
+Route::get('pexxedrg/registration', [App\Http\Controllers\Controller1::class, 'registration']); 
