@@ -50,6 +50,14 @@ header > .header-info {
     width: auto;
 }
 
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(31, 31, 31);
+}
+
 @font-face {
     font-family: "Aegean";
     src: url(/larapraktika/public/fonts/Aegean-8jJ2.ttf) format(OpenType);

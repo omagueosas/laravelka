@@ -85,7 +85,9 @@
 
         </div>
         <div class="footer-info">
-
+            <p>Интернет магазин по всей России</p>
+            <p>Наш номер телефона: 8-902-679-14-39</p>
+            <p>Наша почта: saskakuzaw@gmail.com</p>
         </div>
     </div>  
 </body>
