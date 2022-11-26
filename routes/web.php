@@ -1,15 +1,20 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Controller1;
 
-Route::get('pexxedrg/catalog', [App\Http\Controllers\Controller1::class, 'catalog']); 
+Route::get('/', [App\Http\Controllers\Controller1::class, 'catalog']); 
 
-Route::get('pexxedrg/admin', [App\Http\Controllers\Controller1::class, '']); 
+Route::get('/admin', [App\Http\Controllers\Controller1::class, '']); 
 
-Route::get('pexxedrg/aboutus', [App\Http\Controllers\Controller1::class, 'aboutus']); 
+Route::get('/aboutus', [App\Http\Controllers\Controller1::class, 'aboutus']); 
 
-Route::get('pexxedrg/tofindus', [App\Http\Controllers\Controller1::class, 'tofindus']); 
+Route::get('/tofindus', [App\Http\Controllers\Controller1::class, 'tofindus']); 
 
-Route::get('pexxedrg/login', [App\Http\Controllers\Controller1::class, 'login']); 
+Route::get('/login', [Controller1::class, 'auth']); 
 
-Route::get('pexxedrg/registration', [App\Http\Controllers\Controller1::class, 'registration']); 
+Route::get('/registration', [App\Http\Controllers\Controller1::class, 'auth']); 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
