@@ -5,6 +5,8 @@ use App\Http\Controllers\Controller1;
 
 Route::get('/', [App\Http\Controllers\Controller1::class, 'catalog']); 
 
+Route::get('/catalog', [App\Http\Controllers\Controller1::class, 'catalog']); 
+
 Route::get('/admin', [App\Http\Controllers\Controller1::class, '']); 
 
 Route::get('/aboutus', [App\Http\Controllers\Controller1::class, 'aboutus']); 
