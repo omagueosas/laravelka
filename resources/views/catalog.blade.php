@@ -21,17 +21,18 @@
     </header>
     <div class="main-category">
         <div class="header-info">
-            <div class="logo"><img src="/larapraktika/public/img/logo.png" alt=""/></div>
-            <div class="info-text">
-                <p>Интернет магазин по всей России</p>
+            `<div class="logo"><img src="/larapraktika/public/img/logo.png" alt=""/>`
+                <p>Интернет магазин комиксов по всей России</p>
                 <p>Наш номер телефона: 8-902-679-14-39</p>
                 <p>Наша почта: saskakuzaw@gmail.com</p>
                 <p></p>
             </div>
         </div>
+        <div class="category-name"><h2>Каталог товаров</h2></div>
         <div class="catalog">
             <div class="menu-streamlining">
                 <ul>
+                    <li><a>Сортировать по: </a></li>
                     <li><a>Год производства</a></li>
                     <li><a>Наименование</a></li>
                     <li><a>Цена</a></li>
@@ -45,38 +46,16 @@
                 </ul>
             </div>
         </div>
-
-        <div class="category-name"><h2>Каталог товаров</h2></div>
-
         <div class="product-category">
+            @foreach($arr as $elem)
             <div class="product">
-                <div class="product-image"><img src="/larapraktika/public/img/1.jpg" alt=""/></div>
-                <div class="product-name"><p>Комикс Bat Man</p></div>
-                <div class="product-publisher"> DC</div>
-                <div class="product-price"><p>750р</p></div>
+                <div class="product-image"><img src="{{$elem->Image}}" alt=""/></div>
+                <div class="product-name"><p>{{$elem->Name}}</p></div>
+                <div class="product-publisher">{{$elem->Name}}</div>
+                <div class="product-price"><p>{{$elem->Name}}</p></div>
                 <div class="product-go"><a href="">Перейти на товар</a></div>
             </div>
-            <div class="product">
-                <div class="product-image"><img src="" alt=""/></div>
-                <div class="product-name"><p>Человек паук</p></div>
-                <div class="product-publisher">Марвел</div>
-                <div class="product-price"><p>1000р</p></div>
-                <div class="product-go"><a href="">Перейти на товар</a></div>
-            </div>
-            <div class="product">
-                <div class="product-image"><img src="" alt=""/></div>
-                <div class="product-name"><p>Человек паук</p></div>
-                <div class="product-publisher">Марвел</div>
-                <div class="product-price"><p>1000р</p></div>
-                <div class="product-go"><a href="">Перейти на товар</a></div>
-            </div>
-            <div class="product">
-                <div class="product-image"><img src="" alt=""/></div>
-                <div class="product-name"><p>Человек паук</p></div>
-                <div class="product-publisher">Марвел</div>
-                <div class="product-price"><p>1000р</p></div>
-                <div class="product-go"><a href="">Перейти на товар</a></div>
-            </div>
+            @endforeach
         </div>
     </div>
 

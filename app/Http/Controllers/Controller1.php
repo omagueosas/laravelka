@@ -1,6 +1,7 @@
 <?php 
 namespace App\Http\Controllers; 
 use App\Http\Controllers\Controller; 
+use Illuminate\Support\Facades\DB;
 class Controller1 extends Controller 
 { 
 	public function catalog()
@@ -32,4 +33,9 @@ class Controller1 extends Controller
 	{
 		return view('layouts.app');
 	}
+
+	public function comics() {
+        $t = DB::table("comics")->get();
+        return view("catalog", ['arr'=>$t]);
+    }
 }

@@ -5,29 +5,27 @@
 
 body {
     width: 100%;
-    height: 8000px;
+    height: 1000px;
 }
 
 /*header*/
 
 header {
-    display: flex;
     align-items: center;
     margin: auto; 
     justify-content: space-between;  
 }
 
 body > header > .ul-menu {
+    display: flex;
+    align-items: center;
     height: 35px;
     width: 100%;
     background-color: rgb(51, 51, 51);
-    display: flex;
-    align-items: center;
 }
 
 body > header > .ul-menu > li {
     display: flex;
-    justify-content: center;
     text-align: center;
 }
 
@@ -39,7 +37,21 @@ body > header > .ul-menu > li > a {
     width: 120px;
 }
 
+/*main*/
+
 .main-category > .catalog {
+    margin: auto;
+}
+
+/*menu-streamlining*/
+
+.main-category > .catalog > .menu-streamlining{
+    align-items: center;
+    margin: auto; 
+    justify-content: space-between; 
+}
+
+.main-category > .catalog > .menu-streamlining > ul {
     display: flex;
     align-items: center;
     margin: auto; 
@@ -47,48 +59,110 @@ body > header > .ul-menu > li > a {
     height: 60px;
     width: 100%;
     background-color: rgb(241, 241, 241);
+    margin-bottom: 50px;
 }
 
-.main-category > .catalog > .menu-streamlining{
-    
-}
-
-.main-category > .header-info > .logo {
+.main-category > .catalog > .menu-streamlining > ul > li {
+    display: flex;
+    text-align: center;
     width: 300px;
 }
 
-.main-category > .header-info > .logo > img {
+.main-category > .catalog > .menu-streamlining > ul > li > a {
+    font-family: "Aegean";
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    width: 300px;
+}
+
+/*menu-category*/
+
+.main-category > .catalog > .menu-category{
+    align-items: center;
+    margin: auto; 
+    justify-content: space-between; 
+}
+
+.main-category > .catalog > .menu-category > ul {
+    display: flex;
+    align-items: center;
+    margin: auto; 
+    justify-content: space-between;
+    height: 60px;
     width: 100%;
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 50px;
+}
+
+.main-category > .catalog > .menu-category > ul > li {
+    display: flex;
+    text-align: center;
+    width: 300px;
+}
+
+.main-category > .catalog > .menu-category > ul > li > a {
+    font-family: "Aegean";
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    width: 300px;
+}
+
+/*header-info*/
+
+.main-category > .header-info > .logo {
+    width: 100%;
+    display: inline-block; 
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.main-category > .header-info > .logo > p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 24px;
+    padding: 4px;
+}
+
+.main-category > .header-info > .logo > img {
+    width: 15%;
     height: 200px;
     padding: 30px;
 }
 
-.main-category > .header-info {   
-}
-
-.main-category > .header-info > .info-text {
-    text-align: center;
-}
+/*category-name*/
 
 .main-category > .category-name > h2 {
-    font-family: "Aegean    ";
-    font-size: 30px;
+    text-align: center;
+    font-family: "Rostov";
+    font-size: 55px;
+    padding-bottom: 20px;
+    color: rgb(53, 53, 53);
 }
 
+/*product-category*/
+
 .main-category > .product-category > .product {
-    height: 300px;
+    padding: 50px;
+    height: 400px;
     width: 200px;
     justify-content: space-between;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(95, 95, 95);
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .main-category > .product-category > .product > .product-image > img{
     width: 100%;
-    height: 200px;
+    height: 300px;
 }
 
 /*footer*/
 
 .footer {
+    margin-top: 50px;
     width: 100%;
     height: 400px;
     background-color: rgb(31, 31, 31);
@@ -112,4 +186,14 @@ body > header > .ul-menu > li > a {
 @font-face {
     font-family: "HussarBoldSupercondensedObliqueThree";
     src: url(/larapraktika/public/fonts/HussarBoldSupercondensedObliqueThree.otf) format(OpenType);
+}
+
+@font-face {
+    font-family: "Trueno";
+    src: url(/larapraktika/public/fonts/TruenoExtraboldItalic-eg1O.otf) format(OpenType);
+}
+
+@font-face {
+    font-family: "Rostov";
+    src: url(/larapraktika/public/fonts/Rostov.ttf) format(OpenType);
 }
