@@ -19,23 +19,26 @@ class Controller1 extends Controller
 		return view('tofindus');
 	}
 
-	public function login()
-	{
-		return view('login');
-	}
-
-	public function registration()
-	{
-		return view('registration');
-	}
-
 	public function auth()
 	{
 		return view('layouts.app');
 	}
 
-	public function comics() {
-        $t = DB::table("comics")->get();
-        return view("catalog", ['arr'=>$t]);
+	public function comics() 
+	{
+        $t = DB::table('comics')->get();
+        return view('catalog', ['arr'=>$t]);
     }
+
+	public function comicsid($id) 
+	{
+        $t = DB::table('comics')->where('id', $id)->get();
+        return view('comics', ['arr'=>$t]);
+    }
+
+	public function comics1()
+	{
+		return view('comics');
+	}
+
 }

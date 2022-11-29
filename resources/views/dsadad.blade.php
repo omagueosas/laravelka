@@ -12,15 +12,11 @@
 <body>
     <header>
         <ul class="ul-menu">
-                <li><a href="/larapraktika/public/">Каталог</a></li>
-                <li><a href="/larapraktika/public/aboutus">О нас</a></li>
-                <li><a href="/larapraktika/public/tofindus">Где нас найти?</a></li>
-            @if (Auth::Check())
-                <li><a href="/larapraktika/public/logout">Выйти</a></li>
-            @else
-                <li><a href="/larapraktika/public/register">Регистрация</a></li>
-                <li><a href="/larapraktika/public/login">Вход</a></li>
-            @endif
+            <li><a href="">Каталог</a></li>
+            <li><a href="">О нас</a></li>
+            <li><a href="">Где нас найти?</a></li>
+            <li><a href="">Регистрация</a></li>
+            <li><a href="">Вход</a></li>
         </ul>
     </header>
     <div class="main-category">
@@ -55,9 +51,9 @@
                 <div class="product">
                     <div class="product-image"><img src="{{$elem->Image}}" alt=""/></div>
                     <div class="product-name"><p>{{$elem->Name}}</p></div>
-                    <div class="product-publisher">Издатель: {{$elem->Category}}</div>
-                    <div class="product-price"><p>{{$elem->Price}}</p></div>
-                    <div class="product-go"><a href="/larapraktika/public/catalog/comics{{$elem->id}}">Перейти на товар</a></div>
+                    <div class="product-publisher">Издатель: {{$elem->Name}}</div>
+                    <div class="product-price"><p>{{$elem->Name}}</p></div>
+                    <div class="product-go"><a href="">Перейти на товар</a></div>
                 </div>
             @endforeach
         </div>

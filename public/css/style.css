@@ -6,6 +6,8 @@
 body {
     width: 100%;
     height: 1000px;
+    /* //background-image: url("/larapraktika/public/img/bg.jpg");
+    background-blend-mode: hue; */
 }
 
 /*header*/
@@ -157,6 +159,91 @@ body > header > .ul-menu > li > a {
 .main-category > .product-category > .product > .product-image > img{
     width: 100%;
     height: 300px;
+}
+
+/*product-solo*/
+
+.comics-main {
+}
+
+.comics-main > .product-solo{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.comics-main > .product-solo > .product-solo-image{
+    height: 2000px;
+    width: 300px;
+    float: left;
+}
+
+.comics-main > .product-solo > .product-solo-image > img{
+    height: auto;
+    width: 200px;
+    float: left;
+}
+
+.comics-main > .product-solo > .product-info > .product-solo-name{
+    font-family: 'Aegean';
+    font-size: 40px;
+}
+
+.comics-main > .product-solo > .product-info > .product-solo-detail{
+    font-family: 'Aegean';
+    font-size: 18px;
+    width: 1300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.comics-main > .product-solo > .product-info > .product-solo-detail > .detail-comics{
+    font-family: 'Aegean';
+    font-size: 30px;
+    width: 1300px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.comics-main > .product-solo > .product-solo-price{
+    font-family: 'Aegean';
+    font-size: 40px;
+}
+
+.comics-main > .product-solo > .button > a > input{
+    margin-top: 15px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.comics-main > .product-solo > .product-info > .product-solo-publisher{
+    font-family: 'Aegean';
+    font-size: 24px;
+    width: 1300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.comics-main > .product-solo > .product-info > .product-solo-years{
+    font-family: 'Aegean';
+    font-size: 24px;
+    width: 1300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.comics-main > .product-solo > .product-info > .product-solo-page{
+    font-family: 'Aegean';
+    font-size: 24px;
+    width: 1300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /*footer*/

@@ -12,12 +12,15 @@
 <body>
     <header>
         <ul class="ul-menu">
-            <li class="logo"><img src="" alt=""/></li>
-            <li><a href="">О нас</a></li>
-            <li><a href="">Каталог</a></li>
-            <li><a href="">Где нас найти?</a></li>
-            <li><a href="">Регистрация</a></li>
-            <li><a href="">Вход</a></li>
+        <li><a href="/larapraktika/public/">Каталог</a></li>
+            <li><a href="/larapraktika/public/aboutus">О нас</a></li>
+            <li><a href="/larapraktika/public/tofindus">Где нас найти?</a></li>
+            @if (Auth::Check())
+                <li><a href="/larapraktika/public/logout">Выйти</a></li>
+            @else
+                <li><a href="/larapraktika/public/register">Регистрация</a></li>
+                <li><a href="/larapraktika/public/login">Вход</a></li>
+            @endif
         </ul>
     </header>
     <div class="main-category">
